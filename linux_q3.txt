@@ -1,0 +1,1 @@
+ls -d aws*/ | xargs -I {} bash -c "cd '{}' && pwd"
