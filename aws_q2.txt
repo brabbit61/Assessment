@@ -1,0 +1,3 @@
+Access is allowed for all objects and the objects can use all of the EC2 actions available. 
+
+Except this, no actions are allowed by any objects on any other service.
