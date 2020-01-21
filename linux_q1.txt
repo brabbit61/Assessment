@@ -1,5 +1,0 @@
-grep -i "word" "filename" is used to output all the lines that contain a given word. -i is used so that the word is not case sensitive
-
-grep -o -i "word" "filename" | wc -l 
-is used to output the number of occurrences. -c cannot be used since it specifies only the number of lines in which the word occurs. -o prints each occurrence in a new line and wc -l output the number of lines that are outputted (which are the number of occurrences of the words).
-

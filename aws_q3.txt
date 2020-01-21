@@ -1,9 +1,0 @@
-1) Log onto the AWS Console and select the EC2 service.
-2) Go to the EC2 dashboard and click on launch instance
-3) Select the appropriate Amazon Machine Image.
-4) Next choose an instance type suitable.
-5) The configure the instance details.
-6) Add storage if required, followed by tags.
-7) Configure the security details by customising the IP addresses that are allowed to access the isntance.
-8) Review all the detailsa and then click the launch button.
-
