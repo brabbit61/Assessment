@@ -1,0 +1,4 @@
+sed -i 's/jenit/jain/g' test.txt
+
+
+replaces the word 'jenit' with 'jain' is the file test.txt

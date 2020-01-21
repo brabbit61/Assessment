@@ -1,0 +1,6 @@
+1) Create an S3 bucket that will be used to host the static website.
+2) Go to the properties of the S3 bucket created in Step 1 and click on the Static website hosting option.
+3) Then choose the Use this bucket to host a website option.
+4) Select the default html page that needs to be hosted on the website and click save.
+5) A bucket policy then needs to be added so that general public can get read access to the website. Write a policy in the bucket policy editor and click save.
+6) A link will then be provided that allows access to the website from all IPs.
