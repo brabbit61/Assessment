@@ -35,9 +35,6 @@ allocation_id = address['AllocationId']
 nat_gateway = ec2.create_nat_gateway(SubnetId=subnet1.id, AllocationId=allocation_id)
 print("NAT Gateway id: "+nat_gateway['NatGateway']['NatGatewayId'])
 
-time.sleep(100)
-
-
 route_table2 = vpc.create_route_table()
 route = route_table2.create_route(DestinationCidrBlock='0.0.0.0/0', GatewayId=nat_gateway['NatGateway']['NatGatewayId'])
 print("Route Table 2 id: "+route_table2.id)
